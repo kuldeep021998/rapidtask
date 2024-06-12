@@ -1,0 +1,156 @@
+.homecontainer {
+  position: relative;
+  padding: 24px 0px;
+  z-index: 0;
+  box-sizing: border-box;
+}
+
+.homecontainerImg {
+  width: 100%;
+  height: 400px;
+}
+
+.homecontainer1 {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.homecontainer-head {
+  color: #6b6565;
+  text-align: left;
+}
+.homecontainer-text {
+  width: 40%;
+  text-align: justify;
+  color: #3c3030;
+}
+
+.homecontainer-btn {
+  width: 200px;
+  height: 40px;
+  border-radius: 32px;
+  border: none;
+  color: #262626;
+  background-color: #c0df9a;
+  font-weight: 600;
+}
+
+.homecontainer2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 32px 72px;
+}
+
+.homecontainer2Div {
+  width: calc(23%);
+}
+
+.homecontainer2Img {
+  width: 32px;
+}
+
+.homecontainer2Label {
+  font-weight: 600;
+  padding: 8px 0px;
+}
+
+.homecontainer3 {
+  padding: 32px 72px;
+}
+
+.homecontainer31 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 16px 72px;
+}
+
+.homecontainer3Img {
+  height: 300px;
+  width: 200px;
+}
+
+@media screen and (max-width: 430px) {
+  .homecontainer {
+    position: relative;
+    padding: 24px 0px;
+    z-index: 0;
+    box-sizing: border-box;
+  }
+
+  .homecontainerImg {
+    width: 100%;
+    height: 400px;
+  }
+
+  .homecontainer1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+
+  .homecontainer-head {
+    color: #6b6565;
+    text-align: left;
+    font-size: 16px;
+  }
+  .homecontainer-text {
+    width: 60%;
+    text-align: justify;
+    color: #3c3030;
+    font-size: 10px;
+  }
+
+  .homecontainer-btn {
+    width: 200px;
+    height: 40px;
+    border-radius: 32px;
+    border: none;
+    color: #262626;
+    background-color: #c0df9a;
+    font-weight: 600;
+  }
+
+  .homecontainer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 32px 16px;
+    gap: 16px;
+  }
+
+  .homecontainer2Div {
+    width: calc(100%);
+  }
+
+  .homecontainer2Img {
+    width: 32px;
+  }
+
+  .homecontainer2Label {
+    font-weight: 600;
+    padding: 8px 0px;
+  }
+
+  .homecontainer3 {
+    padding: 32px 16px;
+  }
+
+  .homecontainer31 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px 72px;
+    gap: 16px;
+  }
+
+  .homecontainer3Img {
+    height: 200px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,111 @@
+.headerContainer {
+  padding: 0px 32px 0px 32px;
+  height: 64px;
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  top: 40px;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.headerContainer-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+}
+
+.headerContainer-sub {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerContainer-sublabel {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.03px;
+  text-align: left;
+  color: #fff;
+  margin: 0;
+}
+
+.headerContainer1 {
+  padding: 0px 16px;
+  height: 40px;
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 32px;
+  align-items: center;
+  background-color: #434343;
+  cursor: pointer;
+  z-index: 999;
+}
+
+@media screen and (max-width: 430px) {
+  .headerContainer {
+    padding: 0px 8px 0px 8px;
+    height: 64px;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    top: 40px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 999;
+  }
+
+  .headerContainer-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+  }
+
+  .headerContainer-sub {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .headerContainer-sublabel {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.03px;
+    text-align: left;
+    color: #fff;
+    margin: 0;
+  }
+
+  .headerContainer1 {
+    padding: 0px 16px;
+    height: 40px;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+    align-items: center;
+    background-color: #434343;
+    cursor: pointer;
+    z-index: 999;
+  }
+}
